@@ -1,0 +1,28 @@
+.custom-marker .marker-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.custom-marker .marker-image {
+  width: 50px; /* Tamaño del globo */
+  height: 50px;
+  object-fit: cover;
+	image-rendering: crisp-edges;
+  image-rendering: pixelated; /* Evita desenfoques en navegadores compatibles */
+	
+}
+
+.custom-marker .price-label {
+  position: absolute;
+  top: -20px; /* Ajusta la posición del precio */
+  background-color: rgba(41, 44, 199, 0.7);
+  color: white;
+  padding: 2px 6px;;
+  border-radius: 4px;
+  font-size: 12px;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
